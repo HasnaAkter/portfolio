@@ -10,8 +10,8 @@ const ServiceCard = ({ title, description }) => {
 const Services = () => {
   return (
     <div className="p-5">
-         <h3 className="font-bold text-3xl text-center my-3 capitalize">My Services</h3>
-      <div className="flex ">
+      <h3 className="font-bold text-4xl text-center my-3 capitalize">My Services</h3>
+      <div className="flex flex-wrap justify-center">
         <ServiceCard
           title="Web Development"
           description="Create responsive and dynamic websites using the latest technologies."
@@ -20,12 +20,10 @@ const Services = () => {
           title="Graphic Design"
           description="Design visually appealing graphics and illustrations for various purposes."
         />
-         <ServiceCard
+        <ServiceCard
           title="Graphic Design"
           description="Design visually appealing graphics and illustrations for various purposes."
         />
-      </div>
-      <div className="flex">
         <ServiceCard
           title="Web Development"
           description="Create responsive and dynamic websites using the latest technologies."
@@ -34,7 +32,7 @@ const Services = () => {
           title="Graphic Design"
           description="Design visually appealing graphics and illustrations for various purposes."
         />
-         <ServiceCard
+        <ServiceCard
           title="Graphic Design"
           description="Design visually appealing graphics and illustrations for various purposes."
         />

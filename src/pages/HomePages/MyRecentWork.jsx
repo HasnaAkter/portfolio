@@ -14,12 +14,12 @@ const MyRecentWork = () => {
     const [swiperRef, setSwiperRef] = useState(null);
 
     return (
-        <div className='p-5'>
+        <div className='p-5 '>
          <h3 className="font-bold text-4xl text-start my-3 capitalize">My Recent work</h3>
       <Swiper
         onSwiper={setSwiperRef}
         slidesPerView={3}
-        centeredSlides={true}
+        // centeredSlides={true}
         spaceBetween={30}
         pagination={{
           type: 'fraction',
@@ -29,6 +29,10 @@ const MyRecentWork = () => {
         className="mySwiper "
       >
 
+        <SwiperSlide><img src={img1} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={img2} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={img3} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={img4} alt="" /></SwiperSlide>
         <SwiperSlide><img src={img1} alt="" /></SwiperSlide>
         <SwiperSlide><img src={img2} alt="" /></SwiperSlide>
         <SwiperSlide><img src={img3} alt="" /></SwiperSlide>

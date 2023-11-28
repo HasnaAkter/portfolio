@@ -1,7 +1,9 @@
 import About from "../HomePages/About";
 import Banner from "../HomePages/Banner";
+import Blog from "../HomePages/Blog";
 import MyRecentWork from "../HomePages/MyRecentWork";
 import Services from "../HomePages/Services";
+import Testimonials from "../HomePages/Testimonials";
 
 
 const Home = () => {
@@ -20,6 +22,15 @@ const Home = () => {
           <br />
           <br />
           <MyRecentWork></MyRecentWork>
+          <br />
+          <br />
+          <br />
+          <Blog></Blog>
+          <br />
+          <br />
+          <br />
+          <Testimonials></Testimonials>
+          
         </>
     );
 };
