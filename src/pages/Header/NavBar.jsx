@@ -19,7 +19,7 @@ const NavBar = () => {
   );
 
   return (
-    <div className="navbar fixed z-10 bg-opacity-30  bg-black text-white max-w-full max-auto ">
+    <div className="navbar fixed z-10 bg-opacity-30  bg-black text-white max-w-full max-auto px-10">
       <div className="max-w-screen-lg mx-auto navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -43,7 +43,7 @@ const NavBar = () => {
           </ul>
         </div>
         <Link to="/" className="btn btn-ghost text-xl ">
-          daisyUI
+          PORTFOLIO
         </Link>
       </div>
       <div className="max-w-screen-lg mx-auto navbar-center hidden lg:flex">
