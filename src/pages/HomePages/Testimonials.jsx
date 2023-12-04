@@ -53,10 +53,10 @@ const Testimonials = () => {
   return (
     <div className="max-w-screen-lg mx-auto p-10">
 
-<h3 className="font-bold text-4xl  py-3 capitalize text-center">My Clients Review</h3>
+<h3 className="font-bold text-4xl   py-3 capitalize text-center">My Clients Review</h3>
       <Slider {...sliderSettings}>
         {testimonials.map((testimonial) => (
-          <div key={testimonial.id} className="card-container py-3">
+          <div key={testimonial.id} className="card-container py-3 ">
             <div className="card bg-base-100 shadow-xl md:flex my-10 p-10">
               {/* <figure className="md:w-1/3">
                 <img
@@ -66,10 +66,10 @@ const Testimonials = () => {
                 />
               </figure> */}
               <div className="card-body md:w-2/3 p-6">
-                <h2 className="card-title font-bold text-4xl md:text-5xl">“</h2>
+                <h2 className="card-title font-bold text-4xl md:text-5xl text-pink-900">“</h2>
                 <p className="text-base md:text-lg">{testimonial.text}</p>
                 <br />
-                <p className="font-bold text-lg md:text-xl">{testimonial.name}</p>
+                <p className="font-bold text-lg md:text-xl text-pink-900">{testimonial.name}</p>
                 <p>{testimonial.title}</p>
               </div>
             </div>

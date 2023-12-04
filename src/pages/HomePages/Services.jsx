@@ -4,10 +4,10 @@ const ServiceCard = ({ title, description, icon }) => {
   const IconComponent = icon; 
 
   return (
-    <div className="bg-white p-10 shadow-md rounded-md m-2 w-full md:w-96">
+    <div className="bg-white p-10 shadow-md shadow-pink-900 rounded-md m-2 w-full md:w-96">
       <div className="flex items-center mb-3">
         {IconComponent && <IconComponent className="mr-2 text-blue-500" />}
-        <h3 className="font-bold text-lg">{title}</h3>
+        <h3 className="font-bold text-lg text-pink-900 ">{title}</h3>
       </div>
       <p className="text-gray-600">{description}</p>
     </div>
